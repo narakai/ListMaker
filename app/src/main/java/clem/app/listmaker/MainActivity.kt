@@ -11,7 +11,7 @@ import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_list.*
 
 class MainActivity : AppCompatActivity() {
-    lateinit var listsRecyclerView: RecyclerView
+    private lateinit var listsRecyclerView: RecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
